@@ -1,0 +1,57 @@
+package examenprog;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author sala1e3
+ */
+public class Examenprog {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        /* Realizar un programa que imprima el total que debera pagar
+        por concepto de hospedaje
+         */
+        Scanner Scanner = new Scanner(System.in);
+        float opcion,n = 0;
+        int pt = 0,nt,pr;
+      
+        System.out.println("Seleccione la opcion de hospedaje que necesite");
+        System.out.println("[1].Hotel Park Royal");
+        System.out.println("[2].Hotel Suite Cancun");
+        System.out.println("[3].Hotel Resort Hilton");
+        opcion= entrada.nextFloat();
+   
+    
+    if(opcion==1){
+    
+    System.out.println("Selecciono Hotel Park Royal");
+      System.out.println("Cuantas noches se van a hospedar");
+        nt = (int) entrada.nextFloat();
+         pr = (3504+200)*20/100;
+         System.out.println("Usted pagara un total de :"+pt);
+    }
+    else if(opcion==2){
+    
+    System.out.println("Selecciono Hotel Suite Cancun");
+      System.out.println("Cuantas noches se van a hospedar");
+        nt = (int) entrada.nextFloat();
+         pr = 1089+400;
+         System.out.println("Usted pagara un total de :"+pr);
+    } else if(opcion==3){
+    
+        System.out.println("Selecciono Hotel Resort Hilton");
+      System.out.println("Cuantas noches se van a hospedar");
+        nt = (int) entrada.nextFloat();
+         pr = (4096*40)/100;
+         System.out.println("Usted pagara un total de :"+pr);
+    }
+
+    }
+}
+    
+
+        
